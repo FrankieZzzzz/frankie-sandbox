@@ -1,0 +1,18 @@
+#select-layout.obituary li {
+    display: inline-block;
+	border: 2px solid transparent;
+	cursor:pointer;
+	line-height: 0;
+}
+#select-layout.obituary li.selected {
+    border: 2px solid #0085ba;
+}
+#select-layout.obituary li input {
+    display: none;
+}
+#obituary-layout #select-layout.obituary li {
+    width: 30.33%;
+}
+#obituary-layout #select-layout.obituary li img {
+    width: 100%;
+}

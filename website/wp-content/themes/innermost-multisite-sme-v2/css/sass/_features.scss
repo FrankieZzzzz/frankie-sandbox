@@ -1,0 +1,143 @@
+// Comment: Custom feature styles
+
+// ************* Home Video Banner BG ************* //
+.home .content-body__acf-vid {
+    #home-banner {
+        position: relative;
+        overflow: hidden;
+        h1 {
+            color: $white;
+            font-weight: $bold;
+            line-height: 1;
+            margin-bottom: 30px;
+            // @include text-shadow(0px, 0px, 10px, rgba($black,0.5));
+        }
+        p {
+            color: $white;
+            // @include text-shadow(0px, 0px, 10px, rgba($black,0.5));
+        }
+        @media (min-width: 768px) {
+            min-height: 60vh;
+        }
+        @media (max-width: 767px) {
+            &:before {
+                content: '';
+                background: rgba($black,0.5);
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            h1 {
+                font-size: 2.88rem;
+            }
+        }
+        .home-banner__vid-container {
+            // &:after {
+            //     background-color: $black;
+            //     content: "";
+            //     opacity: 0.7;
+            //     position: absolute;
+            //     top: 0;
+            //     left: 0;
+            //     width: 100%;
+            //     height: 100%;
+            // }
+            @media (min-width: ($min-md + px)) {
+                &#desktop-vid {
+                    display: block;
+                }
+                &#mobile-vid {
+                    display: none;
+                }
+            }
+            @media (max-width: ($max-sm + px)) {
+                &#desktop-vid {
+                    display: none;
+                }
+                &#mobile-vid {
+                    display: block;
+                }
+            }
+        }
+        .home-banner__vid-content {
+            position: relative;
+            text-align: center;
+            align-content: center;
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            .container {
+                height: 100%;
+                > .col {
+                    height: 100%;
+                }
+            }
+            .intro-content {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                height: 100%;
+                padding-top: 60px;
+                padding-bottom: 60px;
+                // background-color: rgba($black, 0.5);
+            }
+        }
+        .vjs-poster {
+            background-size: cover;
+        }
+        .video-js, .video-js .vjs-tech {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
+
+
+// ************* Responsive Tables ************* //
+.scrollable {
+    > div::-webkit-scrollbar {
+        height:12px;
+    }
+    > div::-webkit-scrollbar-track {
+        box-shadow:0 0 2px rgba($black,0.15) inset;
+        background: $greyF;
+    }
+    > div::-webkit-scrollbar-thumb {
+        border-radius:6px;
+        background: $greyC;
+    }
+    &.has-scroll {
+        position:relative;
+        overflow:hidden;
+        margin-bottom: 20px;
+        > div  {
+            overflow-x:auto;
+            -webkit-overflow-scrolling: touch;
+            > table {
+                margin-bottom: 0px;
+            }
+        }
+        > div::-webkit-scrollbar {
+            height:12px;
+        }
+        &:after {
+            position:absolute;
+            top:0;
+            left:100%;
+            width:50px;
+            height:100%;
+            border-radius:10px 0 0 10px / 50% 0 0 50%;
+            // box-shadow:-5px 0 10px rgba($black, 0.2);
+            content:'';
+        }
+    }
+}

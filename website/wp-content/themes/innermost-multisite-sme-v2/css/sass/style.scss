@@ -1,0 +1,40 @@
+
+
+// Comments: style.scss compiled to /css/style.css
+// Style.scss Structure
+//  - variables.scss
+//  - mixin.scss
+//  - normalize.scss
+//  - custom-bootstrap.scss
+//  - clean theme default styles
+//  - site.scss
+//     - common.scss
+//     - media-queries
+
+// ************* Variables ************* //
+
+@import "_variables.scss";
+
+// ************* Mixins ************* //
+
+@import "_mixin.scss";
+
+// ************* Site Styles ************* //
+
+@import "_site.scss";
+
+// ************* Mobile Menu Styles ************* //
+
+@import "_mobilemenu.scss";
+
+// ************* Search Styles ************* //
+
+@import "_search.scss";
+
+// ************* Features ************* //
+
+@import "_features.scss";
+
+// ************* Default Parent Styles ************* //
+
+@import "_parent.scss";

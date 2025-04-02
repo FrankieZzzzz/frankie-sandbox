@@ -1,0 +1,97 @@
+.obit_thumbnail {
+	float: left;
+	margin: 0 20px 10px 0;
+}
+.obit_thumbnail img {
+	width: 150px !important;
+	height: auto;
+}
+.obituaries .entry-categories {
+	display: none !important;
+}
+.wpffo-entry-meta p {
+	text-align: right;
+	margin-bottom: 10px;
+}
+.funeral-services {
+	clear: both;
+}
+.funeral-services .service {
+	width: 48%;
+	float: left;
+	margin-bottom: 10px;
+}
+.funeral-services h2 {
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.funeral-services p {
+	margin: 0 0 0 10px;
+}
+.charity_wrap {
+	margin: 20px 0;
+	padding: 20px;
+	background-color: #eaeaea;
+}
+.clrfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#search-form-obit-page {
+	margin-bottom: 20px;
+}
+#search-form-obit-page input[type="text"] {
+	float: left; 
+	width: 65%;
+}
+#search-form-obit-page input[type="submit"]{
+	float: right; 
+	width: 30%;
+	margin-top: 0;
+}
+.visitation_services_wrap {
+	clear: both
+}
+.visitation_services{
+	float: left;
+	width: 50%;
+	padding: 2% 5% 2% 2%;
+}
+h2.wpffo-post-meta-header {
+    background: #efefef; /* For browsers that do not support gradients */
+     /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow, green); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow, green); /* For Firefox 3.6 to 15 */
+     /* Standard syntax */
+    background: -webkit-linear-gradient(#eaeaea, rgb(255, 255, 255));
+    background: -o-linear-;
+    padding: 5px 10px;
+    border-radius: 5px;
+	font-size: 26px;
+}
+.visitation_services h3 {
+    text-decoration: underline;
+	font-size: 22px;
+}
+.visitation_services p {
+    margin-bottom: 10px;
+}
+.visitation_services p.service-date {
+    margin: 0;
+}
+span.event-icon img {
+    margin-right: 10px !important;
+}
+p.service-add {
+    font-weight: bold;
+}
+.visitation_services p {
+    font-size: 15px;
+}
+.outer .outer {
+    margin: 0 0 15px;
+    padding: 15px;
+    background-color: #efefef;
+}

@@ -1,0 +1,16 @@
+{
+  "tiers": {
+    "210": "Custom Facebook Feed WordPress Plugin Personal",
+    "299": "Custom Facebook Feed WordPress Plugin Business",
+    "300": "Custom Facebook Feed WordPress Plugin Developer",
+    "13384": "Custom Facebook Feed WordPress Plugin Smash",
+    "1722804": "Custom Facebook Feed WordPress Plugin Basic",
+    "1722814": "Custom Facebook Feed WordPress Plugin Plus",
+    "1722820": "Custom Facebook Feed WordPress Plugin Elite"
+
+  },
+  "product_name_files": [
+    "custom-facebook-feed.php",
+    "README.txt"
+  ]
+}

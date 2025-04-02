@@ -1,0 +1,7 @@
+<ul class='social-share'>
+    <li><a href='https://www.facebook.com/sharer/sharer.php?u=<?php echo urlencode(get_permalink()); ?>' data-post-url='<?php echo get_permalink(); ?>' data-post-title='<?php echo the_title(); ?>' data-share-option='facebook' class='facebook-link'><i class="fa-brands fa-facebook"></i></a></li>
+    <li><a href='https://www.instagram.com/' data-post-url='<?php echo get_permalink(); ?>' data-post-title='<?php echo the_title(); ?>' data-share-option='instagram' class='instagram-link'><i class="fa-brands fa-instagram"></i></a></li>
+    <li><a href='https://www.linkedin.com/sharing/share-offsite/?url=<?php echo urlencode(get_permalink()); ?>' data-post-url='<?php echo get_permalink(); ?>' data-post-title='<?php echo the_title(); ?>' data-share-option='linkedin' class='linkedin-link'><i class="fa-brands fa-linkedin"></i></a></li>
+    <li><a href='https://www.google.com/search?q=<?php echo urlencode(get_the_title()); ?>' data-post-url='<?php echo get_permalink(); ?>' data-post-title='<?php echo the_title(); ?>' data-share-option='google' class='google-link'><i class="fa-brands fa-google"></i></a></li>
+    <li><a href='https://www.youtube.com/' data-post-url='<?php echo get_permalink(); ?>' data-post-title='<?php echo the_title(); ?>' data-share-option='youtube' class='youtube-link'><i class="fa-brands fa-youtube"></i></a></li>
+</ul>

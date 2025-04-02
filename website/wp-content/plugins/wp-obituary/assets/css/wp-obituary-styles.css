@@ -1,0 +1,82 @@
+/*
+Paganition Styles */
+#obituary-pagination {
+    display: block;
+    clear: both;
+    text-align: center;
+	margin:24px 0;
+}
+#obituary-content #obituary-pagination,
+#obituary-content #obituary-content{
+	margin:24px 0;
+	display: block;
+    overflow: hidden;
+}
+#obituary-content .obituary-thumb img {
+    float: left;
+    margin: 0 24px 24px 0;
+}
+#obituary-pagination ul.page-numbers li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+#obituary-pagination ul.page-numbers li .page-numbers {
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    display: inline-block;
+}
+#obituary-pagination ul.page-numbers li .page-numbers.current,
+#obituary-pagination ul.page-numbers li .page-numbers:hover {
+    background-color: #ccc;
+    color: #333;
+}
+/*
+Layout Styles */
+.obituary #obituary-main{
+	width:100%;
+}
+.obituary.right-sidebar #obituary-main #obituary-sidebar.right-sidebar,
+.obituary.left-sidebar #obituary-main #article.left-sidebar{
+	float: right;
+}
+.obituary.right-sidebar #obituary-main #article.right-sidebar,
+.obituary.left-sidebar #obituary-main #article.left-sidebar{
+	width: 67.56053%;
+}
+.obituary.left-sidebar #obituary-main #obituary-sidebar.left-sidebar,
+.obituary.right-sidebar #obituary-main #obituary-sidebar.right-sidebar{
+	width: 30.68159%;
+}
+.obituary.right-sidebar #obituary-main #article.right-sidebar,
+.obituary.left-sidebar #obituary-main #obituary-sidebar.left-sidebar{
+	float:left;
+	margin-right: 1.75788%;
+	margin-left:0;
+}
+/*
+Sidebar Styles */
+#obituary-sidebar .widget{
+	margin-bottom:24px;	
+}
+#obituary-sidebar .widget .widgettitle{
+	margin-bottom:12px;
+}
+/*
+Content Styles */
+.obituary .obituary-thumb img{
+	float: left;
+    margin: 0 24px 24px 0;
+}
+#obituary-main .wp_obituary.hentry{
+	display:block;
+	clear:both;
+}
+/*
+Comment Syles */
+.obituary #comments ol, 
+.obituary #comments ol ul{
+	list-style: none;
+}

@@ -1,0 +1,19 @@
+
+
+//Comments: search.scss is imported into style.scss for compilation
+
+// ************* Search Modal ************* //
+.no-value-error {
+    opacity: 0;
+    height: 0;
+    @include ease;
+    .error-msg {
+        color: $error !important;
+        font-size: 1.4rem;
+    }
+    &[style*="block"] {
+        height: auto;
+        opacity: 1;
+        margin-top: 10px;
+    }
+}

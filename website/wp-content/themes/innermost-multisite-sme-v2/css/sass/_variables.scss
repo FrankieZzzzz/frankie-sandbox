@@ -1,0 +1,43 @@
+// Comments: variable.scss is imported into style.scss for compilation
+
+// ******** Font Weights ******** //
+$light: 300;
+$reg: 400;
+$semi: 600;
+$bold: 700;
+$xbold: 800;
+$xblack: 900;
+
+// ******** Predefined Colours ******** //
+
+$blue: #1211c3;
+
+// Neutral
+$black: #000000; // rgba(0, 0, 0, 1) - Black
+$grey3: #333333; // rgba(51, 51, 51, 1) - Gunmetal grey
+$grey6: #666666; // rgba(102, 102, 102, 1) - Very dark grey
+$grey8: #888888; // rgba(136, 136, 136, 1) - Dark grey
+$greyA: #aaaaaa; // rgba(170, 170, 170, 1) - Medium grey
+$greyC: #cccccc;
+$greyD: #dddddd; // rgba(221, 221, 221, 1) - Light Grey
+$greyE: #eeeeee; // rgba(238, 238, 238, 1) - Very light grey
+$greyF: #f4f4f4; // rgba(244, 244, 244, 1) - Sand
+$white: #ffffff; // rgba(255, 255, 255, 1) - White
+
+// Errors
+$error: #b94a48; // error text
+$errorL: #a58e8e; // error text light
+$errorM: #b56969; // error text medium
+$errorBG: #ffdfe0; //error bg
+
+// ******** Media Screen Sizes ******** //
+$max-xxs: 575.98;
+$max-xs: 767.98;
+$max-sm: 991.98;
+$max-md: 1024.98; // ipad landscape
+$max-lg: 1199.98;
+$min-xs: 576;
+$min-sm: 768;
+$min-md: 992;
+$min-lg: 1025; // ipad landscape
+$min-xl: 1200;

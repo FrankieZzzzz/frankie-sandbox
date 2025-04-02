@@ -1,0 +1,128 @@
+
+
+// Comment: common.scss is imported into global.scss for compilation
+
+/************* Common Classes *************/
+
+/* Typography */
+strong {
+    font-weight: $bold;
+}
+
+em {
+  font-style: italic;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+/* Horizontal Clear */
+.clear {
+  clear: both;
+}
+
+/* Text Align */
+.left {
+  text-align: left !important;
+}
+.right {
+  text-align: right !important;
+}
+.center {
+  text-align: center !important;
+}
+/* Text Align - SM Desktop+ */
+@media screen
+  and (min-width: 768px) {
+  .left-sm {
+    text-align: left !important;
+  }
+  .right-sm {
+    text-align: right !important;
+  }
+  .center-sm {
+    text-align: center !important;
+  }
+}
+
+/* Margin */
+.no-margin {
+  margin: 0 !important;
+}
+
+/* Padding */
+.no-pad {
+  padding: 0 !important;
+}
+
+/* Padding Spacer */
+.pad {
+  &.top15 {
+    padding-top: 15px;
+  }
+  &.top30 {
+    padding-top: 30px;
+  }
+  &.bot15 {
+    padding-bottom: 15px;
+  }
+  &.bot30 {
+    padding-bottom: 30px;
+  }
+}
+
+/* Margin Spacer */
+.margin {
+  &.top15 {
+    margin-top: 15px;
+  }
+  &.top30 {
+    margin-top: 30px;
+  }
+  &.bot15 {
+    margin-bottom: 15px;
+  }
+  &.bot30 {
+    margin-bottom: 30px;
+  }
+}
+
+/* Links / Buttons */
+a, button {
+  cursor: pointer;
+}
+
+/* Anchors */
+a {
+  &.anchor{
+    display: block;
+    position: relative;
+    visibility: hidden;
+    top: -110px;
+  }
+}
+
+/* Responsive Videos */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+.video-container iframe {
+  border: 0 none;
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* IE10,11 Fixes */
+select::-ms-expand {
+    display: none;
+}
+input::-ms-clear {
+    display: none;
+}

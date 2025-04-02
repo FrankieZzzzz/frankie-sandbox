@@ -1,0 +1,17 @@
+- .env
+- .DS_Store
+- config.rb
+- node_modules
+- vendor
+- .git
+- composer.*
+- package.json
+- package-lock.json
+- phpcs.xml
+- scoper.inc.php
+- webpack.config.js
+- prod
+- build
+- .github
+- Makefile
+- builds

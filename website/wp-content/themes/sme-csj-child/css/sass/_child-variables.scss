@@ -1,0 +1,68 @@
+// Comments: variable.scss is imported into style.scss for compilation
+$imgPath: "/wp-content/themes/sme-csj-child/images/";
+// ******** Font Stack ******** //
+
+$font_family: "Poppins", Helvetica, sans-serif;
+$font_awesome: "Font Awesome 6 Pro";
+
+$light: 300;
+$reg: 400;
+$med: 500;
+$semi: 600;
+$bold: 700;
+
+// ******** Predefined Colours ******** //
+$prime_green: #00833e;
+$prime_green_light: #59af86;
+$yellow: #ffcf54;
+$yellow_light: #ffe55d;
+$alert: #ff0000;
+
+$darkGrey: #2a2a2a;
+$lightGrey: #f0f0f0;
+$black: #000;
+$white: #fff;
+
+// ******** Secondary Colours ******** //
+$charcoal_grey: #404040;
+$steel_grey: #657067;
+$navy_blue: #5355a4;
+$cornflower_blue: #92b0db;
+$sky_blue: #b5d4ff;
+
+// Neutral
+$grey1: #111;
+$grey2: #222;
+$grey3: #333;
+$grey4: #464646;
+$grey6: #666;
+$grey8: #888;
+$greyB: #b1b1b1;
+$greyC: #ccc;
+$greyD: #ddd;
+$greyE: #eee;
+
+// Errors
+$error: #b94a48; // error text
+$errorL: #a58e8e; // error text light
+$errorM: #b56969; // error text medium
+$errorBG: #ffdfe0; //error bg
+
+// ******** Media Screen Sizes ******** //
+
+// $screen-sm: 576;
+// $screen-md: 768;
+// $screen-lg: 992;
+// $screen-xl: 1200;
+
+$max-xxs: 575;
+$max-xs: 767; //mobile
+$max-sm: 991;
+$max-md: 1024; //ipad landscape
+$max-lg: 1199;
+$min-sm: 768; //tablet
+$min-md: 992;
+$min-lg: 1025; //ipad landscape
+$min-xl: 1200; //is a desktop
+$min-xxl: 1600;
+$min-xxxl: 2000;

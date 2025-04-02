@@ -1,0 +1,220 @@
+// Comment: Parent fallback styles
+
+html {
+  // Main Nav
+  .header__main {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .header__main-wrapper {
+    display: flex;
+  }
+  .logo {
+    max-width: 100%;
+  }
+  .social-media {
+    padding: 7px 0;
+  }
+  a {
+    color: $blue;
+  }
+  a[class*="social-media__"] {
+    color: $greyA;
+    margin-left: 15px;
+    &:hover,
+    &:focus,
+    &:active {
+      color: $grey3;
+    }
+  }
+  a[class*="border-"] {
+    display: inline-block;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    i {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    &.border-circle {
+      &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 1px solid $greyA;
+        border-radius: 100%;
+      }
+    }
+    &.border-square {
+      &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 1px solid $greyA;
+      }
+    }
+    &.border-diamond {
+      &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 1px solid $greyA;
+        transform: rotate(45deg);
+      }
+    }
+  }
+  .header__global-searchform {
+    margin-left: 15px;
+  }
+  ul.navbar-nav {
+    li.menu-item {
+      margin-left: 7.5px;
+      margin-right: 7.5px;
+      &.current-menu-item,
+      &.current-menu-parent {
+        font-weight: $bold;
+      }
+    }
+  }
+  ul.dropdown-menu {
+    min-width: 200px;
+  }
+
+  // Page Banner
+  .banner {
+    background-color: $greyD;
+  }
+  .banner__title {
+    margin-bottom: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: $white;
+  }
+
+  // Blog
+  .blog {
+    #content_primary,
+    #content_sidebar {
+      margin-top: 35px;
+    }
+    article {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      &:first-of-type {
+        padding-top: 0;
+      }
+      &:not(:last-of-type) {
+        border-bottom: 1px solid $greyD;
+      }
+    }
+    h2 {
+      margin: 15px 0;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .single {
+    #content_single,
+    #content_sidebar {
+      padding-top: 35px;
+      padding-bottom: 35px;
+    }
+    .entry-img {
+      margin: 30px 0;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+  .comment-respond {
+    margin-top: 30px;
+  }
+
+  // Sidebar
+  .widget {
+    background-color: $greyE;
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+
+  // Templates
+  .page-template-page-banner-sidebar {
+    #content_primary,
+    #content_sidebar {
+      padding-top: 35px;
+    }
+  }
+  .page-template-page-general,
+  .page-template-page-fullwidth,
+  .page-template-page-plain {
+  }
+
+  // Search
+  .search-results {
+    .search-form {
+      margin: 30px 0;
+    }
+    article {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      &:first-of-type {
+        padding-top: 0;
+      }
+      &:not(:last-of-type) {
+        border-bottom: 1px solid $greyD;
+      }
+    }
+  }
+
+  // Footer
+  footer {
+    background-color: $greyF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .bottom-footer__left__copyright {
+    padding: 7px 0;
+  }
+
+  // VC widgets
+  .vc_section:not(.vc_section-has-fill):first-child {
+    .wpb_content_element,
+    .vc_general {
+      margin-top: 35px;
+    }
+  }
+
+  // Event Calendar
+  #tribe-events {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  // WooCommerce
+  div.woocommerce {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    .col2-set .col-1,
+    .col2-set .col-2 {
+      max-width: none;
+    }
+    .form-row {
+      display: block;
+    }
+  }
+} // end html

@@ -1,0 +1,22 @@
+{
+    "name": "smashballoon/custom-facebook-feed-pro",
+    "description": "Displays completely customizable Facebook feeds on website",
+    "license": "GPL-2.0-only",
+    "autoload": {
+        "psr-4": {
+            "CustomFacebookFeed\\": "inc/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:awesomemotive/sb-common.git"
+        }
+    ],
+    "require": {
+        "smashballoon/framework": "dev-master"
+    },
+    "config": {
+        "platform-check": false
+    }
+}
